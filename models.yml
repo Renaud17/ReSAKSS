@@ -1,0 +1,6 @@
+models:
+  - name: "ReSAKSS"
+    description: "Agriculture Senegal Modeling"
+    model_path: "ReSAKSS/VECM_result.pkl"
+    data_schema_path: "ReSAKSS/ReSAKSS.json"
+    target: ["millet_tons", "corn_tons", "sorghum_tons", "rice_tons", "groundnuts_tons"]
